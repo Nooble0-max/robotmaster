@@ -1,0 +1,50 @@
+# ============================================================
+#  RoboMaster 项目 .gitignore
+#  仓库根在 C:\cpp，所以这份放在根目录，对 robomaster/ 生效。
+#  如果以后把仓库挪进 robomaster\，把本文件一起移过去即可。
+# ============================================================
+
+# ---- 编译产物（MSVC）----
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.map
+*.tlog
+*.ipch
+*.iobj
+*.ipdb
+*.bsc
+*.sbr
+
+# ---- 运行产物 ----
+game.log
+*.log
+
+# ---- Visual Studio ----
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# ---- VS Code ----
+.vscode/
+*.code-workspace
+
+# ---- 系统 / 编辑器临时文件 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+
+# ---- 备份文件 ----
+*.bak
+*.bak.*
