@@ -14,3 +14,5 @@ move/attack/repair 行 列 | supply | wait | help | quit
 ## 规则
 7×7 棋盘，障碍 5 处、补给区 2 处；基地 200 HP；每回合上限 60 半回合；
 补给 +20 HP / +5 弹药；详细规则见 robomaster/design.md
+**注意**
+对战过程中的行动命令是“命令” + 坐标，且横纵坐标需要空格隔开
